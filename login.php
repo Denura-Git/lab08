@@ -20,27 +20,7 @@
     </form>  
 
     <p>Don't have an account?  Create one. </p>  
-    <?php  
-    include("header.inc");  
-?>  
-
-    <form action="process.php" method="post">  
-        <label for="username">Username:</label>  
-        <input type="text" id="username" name="username" required><br><br>  
-
-        <label for="password">Password:</label>  
-        <input type="password" id="password" name="password" required><br><br>  
-
-        <input type="hidden" name="user_token" value="YN12345678">  <!-- Replace with your actual initials and student ID -->  
-
-        <input type="submit" value="Login">  
-    </form>  
-
-    <p>Don't have an account?  Create one. </p>  
-
-<?php  
-    include("footer.inc");  
-?>  
+   
 
 </body>  
 </html>  
