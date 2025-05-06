@@ -6,6 +6,9 @@
     <title>Login Form</title>  
 </head>  
 <body>  
+<header>  
+        <h1>My Awesome Website</h1>  
+    </header>  
 
     <form action="process.php" method="post">  
         <label for="username">Username:</label>  
@@ -20,7 +23,9 @@
     </form>  
 
     <p>Don't have an account?  Create one. </p>  
-   
+    <footer>  
+        <p>&copy; <?php echo date("Y"); ?> Your Name. All rights reserved.</p>  
+    </footer> 
 
 </body>  
 </html>  
