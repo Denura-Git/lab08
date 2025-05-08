@@ -24,7 +24,7 @@
 
     <p>Don't have an account?  Create one. </p>  
     <footer>  
-        <p>&copy; <?php echo date("Y"); ?> Your Name. All rights reserved.</p>  
+        <p>&copy; <?php echo date("Y"); ?> Denura. All rights reserved.</p>  
     </footer> 
 
 </body>  

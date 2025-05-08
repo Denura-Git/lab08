@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $user_token = $_POST["user_token"];  
 
     // Replace 'YourName' and 'YourStudentID' with your actual values  
-    if ($username == "YourName" && $password == "YourStudentID") {  
+    if ($username == "admin" && $password == "denura") {  
         $_SESSION["user"] = $username;  
         header("Location: welcome.php"); // Redirect to welcome page  
         exit();  
